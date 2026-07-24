@@ -1,6 +1,6 @@
 data "aws_caller_identity" "current" {}
 
 resource "aws_s3_bucket" "sandbox_bucket" {
-  bucket = "aft-sandbox-audit-bucket"
+  bucket = "aft-staging-resilience-model-audit-bucket"
   acl    = "private"
 }
